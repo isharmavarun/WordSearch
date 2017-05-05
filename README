@@ -24,17 +24,20 @@ Interface:
 	   |__com.adbrain.dict
 	   |	   |
 	   |	   |__CharacterMatrix.java - Loads the dictionary of words and constructs a Trie
-	   |	   |					     data structure from it. Traverses the character
-	   |	   |						 matrix and using depth first search, looks up valid
-	   |	   |						 words present in the Trie as well.
+	   |	   |					     data structure from it. Traverses the
+	   |	   |						 character matrix and using depth first
+	   |	   |						 search, looks up valid words present 
+	   |	   |						 in the Trie as well.
 	   |       |
 	   |	   |
 	   |	   |__DictionaryNode.java  - Also represents a Trie Node and holds the term (word
-	   |	   						     itself) and the 26 other character node references.
+	   |	   						     itself) and the 26 other character
+	   |								 node references.
 	   |
 	   |__com.adbrain.dicttest
 	   		   |
 	   		   |__CharacterMatrixTest.java - Tests the CharacterMatrix class. Runs sunny day,
-	   		   |							 error, and small and big dataset scenarios.
+	   		   |							 error, and small and big 
+	   		   |							 dataset scenarios.
 	   		   |
 	   		   |__DictionaryNodeTest.java  - Tests the DictionaryNode class methods.
