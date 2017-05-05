@@ -1,0 +1,40 @@
+Author: Varun Sharma
+
+Filenames:
+	- com.adbrain.dict/CharacterMatrix.java
+	- com.adbrain.dict/DictionaryNode.java
+	- com.adbrain.dicttest/CharacterMatrixTest.java
+	- com.adbrain.dicttest/DictionaryNodeTest.java
+
+Requirements:
+	- Java 7 or higher.
+	- Eclipse/Netbeans IDE.
+	- JUnit integration on the IDE.
+
+How to run:
+	- Create a new Java project on the IDE of your choice.
+	- Extract the zip contents into any folder.
+	- Transfer the contents of the zip folder into your Java project.
+	- Run the test files under 'com.adbrain.dicttest' package.
+	- Output will be seen on the JUnit window on the IDE.
+
+Interface:
+	Adbrain
+	   |
+	   |__com.adbrain.dict
+	   |	   |
+	   |	   |__CharacterMatrix.java - Loads the dictionary of words and constructs a Trie
+	   |	   |					     data structure from it. Traverses the character
+	   |	   |						 matrix and using depth first search, looks up valid
+	   |	   |						 words present in the Trie as well.
+	   |       |
+	   |	   |
+	   |	   |__DictionaryNode.java  - Also represents a Trie Node and holds the term (word
+	   |	   						     itself) and the 26 other character node references.
+	   |
+	   |__com.adbrain.dicttest
+	   		   |
+	   		   |__CharacterMatrixTest.java - Tests the CharacterMatrix class. Runs sunny day,
+	   		   |							 error, and small and big dataset scenarios.
+	   		   |
+	   		   |__DictionaryNodeTest.java  - Tests the DictionaryNode class methods.
